@@ -1,0 +1,10 @@
+
+$bg-color:#f90;
+$font-color:#fff;
+
+
+::v-deep .van-field--error .van-field__control, 
+::v-deep .van-field--error .van-field__control::placeholder {
+    color: #a4a4a5!important;
+}
+
