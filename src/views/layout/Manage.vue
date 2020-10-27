@@ -1,15 +1,21 @@
 <template>
   <div class="manage">
     <van-row gutter="20" class="lheader">
-      <van-col span="20">
-        xx系统
-      </van-col>
+      <van-col span="20">xx系统</van-col>
     </van-row>
     <van-row style="flex:1" class="lcontain">
-      <van-col span="4">NAVISE</van-col>
+      <van-col span="4">
+
+        <div class="lavatar">
+          <van-image width="100" height="100" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+        </div>
+        <div class="lmenu">
+
+        </div>
+
+      </van-col>
       <van-col span="10" offset="4">CONTENT</van-col>
     </van-row>
-
   </div>
 </template>
 
@@ -18,25 +24,33 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: "Manage"
+  name: "Manage",
+  data(){
+    return{
+      menus:[
+        {name:'首页',path:'/',icon:'home'},
+        {name:'首',path:'/',icon:'home'},
+      ]
+    }
+  }
 };
 </script>
 <style lang="scss" scoped>
 .manage {
   height: 100%;
-      display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 ::v-deep .demo-col .van-col {
   background-color: #39a9ed;
 }
 
-.lheader{
+.lheader {
   border: 1px solid red;
-  height: 400px;
+  height: 80px;
 }
-.lcontain{
+.lcontain {
   border: 1px solid green;
 }
 </style>
