@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-      登录
+      登录--VideoBar
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: "Slide"
+  name: "VideoBar"
 };
 </script>
 <style lang="scss" scoped></style>

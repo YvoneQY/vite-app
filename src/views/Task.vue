@@ -1,15 +1,13 @@
 <template>
   <div class="home">
-      登录
+      登录--task
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "Slide"
+  name: "Task"
 };
 </script>
+
 <style lang="scss" scoped></style>
