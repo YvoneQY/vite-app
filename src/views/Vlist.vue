@@ -19,7 +19,7 @@ export default {
   name: "Task",
   data() {
     return {
-      view: "va"
+      view: "vb"
     };
   },
   components: {

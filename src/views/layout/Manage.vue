@@ -43,7 +43,7 @@ export default {
       menus: [
         // { name: "首页", path: "/", icon: "home" },
         { name: "任务", path: "/task", icon: "task" },
-        // { name: "播放", path: "/about", icon: "play" },
+        { name: "播放", path: "/about", icon: "play" },
         { name: "设置", path: "/set", icon: "set" },
         { name: "例子", path: "/vlist", icon: "set" },
       ],

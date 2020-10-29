@@ -70,10 +70,19 @@ export default {
     width: 100%;
     height: 100vh;
     z-index: 1;
-    .bgvideo{
+    .bgvideo {
       width: 100%;
       height: 100%;
+      object-fit: fill;
     }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: 10;
+    background: #ff000030;
+    height: 100%;
+    width: 100%;
   }
 }
 </style>

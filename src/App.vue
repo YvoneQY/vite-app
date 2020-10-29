@@ -3,12 +3,14 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <router-link to="/play">play</router-link>
     </div>
     <router-view />
   </div>
 </template>
 
 <style lang="scss">
+
 @import './style/config';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

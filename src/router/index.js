@@ -10,6 +10,7 @@ import VideoPlay from "../views/components/task/VideoPlay";
 import Vlist from "../views/Vlist";
 import Exam1 from '../views/components/vlist/Exam1';
 import Exam2 from '../views/components/vlist/Exam2';
+import Player from '../views/components/player/Player'
 /* eslint-disable */
 Vue.use(VueRouter);
 const routes = [
@@ -18,6 +19,11 @@ const routes = [
     path: "/",
     name: "Login",
     component: Login
+  },
+  {
+    path: "/play",
+    name: "Player",
+    component: Player
   },
   {
     path: "/home",
